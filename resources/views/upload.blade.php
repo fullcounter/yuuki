@@ -1,4 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
 @extends('layouts.header')
+      <title>Yuuki - Upload Video</title>
+    </head>
 @section('content')
 <body>
     @extends('layouts.navbar')
