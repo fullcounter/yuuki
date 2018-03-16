@@ -14,8 +14,6 @@ Also, the backend you may need:
 - Apache with php module, or NGINX with fastcgi/fpm
 - Storage for your video
 
-In the future, I may add some js framework like Vue.js / Ember.js, after I understand how they works.
-
 The video codec should be h264 or VP9, and OPUS or AAC audio with mp4/webm container.
 Video codec settings should use standard settings encoding specifications, so it can be played at most web browser.
 For optimal quality streams, video bitrate should be around ~3000kbps (CRF 19-23 at medium preset for h264) for a 720p video.
